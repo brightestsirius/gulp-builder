@@ -1,0 +1,20 @@
+{
+	"users": [
+		{
+			"name": "Jack",
+			"role": "student"
+		},
+		{
+			"name": "Anton",
+			"role": "student"
+		},
+		{
+			"name": "Ilona",
+			"role": "admin"
+		},
+		{
+			"name": "Alex",
+			"role": "lector"
+		}
+	]
+}

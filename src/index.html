@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Node, Gulp</title>
+	@include('./html__partials/links.html')
+</head>
+<body>
+	@include('./html__partials/header.html',{name:'formIndexHtml'})
+
+	<h1 id="title">Hello, world!</h1>
+	<input type="text" placeholder="Enter">
+
+	<ul>
+		<li>
+			<img src="images/lemon.png" alt="lemon" width="50">
+		</li>
+		<li>
+			<img src="images/ingredients/blueberry.png" alt="blueberry" width="50">
+		</li>
+		<li>
+			<img src="images/ingredients/dog.jpeg" alt="dog" width="50">
+		</li>
+		<li>
+			<svg width="50" height="50">
+				<use xlink:href="images/sprite.svg#avocado">
+			</svg>
+		</li>
+	</ul>
+	
+	<script type="module" src="js/app.min.js"></script>
+</body>
+</html>
